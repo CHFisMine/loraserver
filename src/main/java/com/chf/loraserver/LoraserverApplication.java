@@ -9,8 +9,8 @@ public class LoraserverApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LoraserverApplication.class, args);
-        mqttClient mqttClient = new mqttClient();
-        mqttClient.publishMessage("topic","playoud",1);
+//        mqttClient mqttClient = new mqttClient();
+//        mqttClient.publishMessage("topic","playoud",1);
     }
 
 }
